@@ -37,14 +37,14 @@ role: "handler"
 
 
 const SOURCES   = ["Meta Ads","Google Ads","Website","Referral","Walk-in","WhatsApp","Direct Call","Other"];
-const STATUSES  = ["new","contacted","followup","closed_won","closed_lost"];
-const STATUS_LABELS = { new:"New", contacted:"Contacted", followup:"Follow-up Pending", closed_won:"Won", closed_lost:"Lost" };
+const STATUSES  = ["new","contacted","followup","closed_won","DROP"];
+const STATUS_LABELS = { new:"New", contacted:"Contacted", followup:"Follow-up Pending", closed_won:"Won", Drop:"Drop" };
 const STATUS_COLORS = {
   new:        { bg:"rgba(79,142,247,.15)", color:C.accent },
   contacted:  { bg:"rgba(124,92,252,.15)", color:C.accent2 },
   followup:   { bg:"rgba(245,158,66,.15)", color:C.orange },
   closed_won: { bg:"rgba(34,200,122,.15)", color:C.green },
-  closed_lost:{ bg:"rgba(242,95,95,.15)",  color:C.red },
+  Drop:{ bg:"rgba(242,95,95,.15)",  color:C.red },
 };
 
 function uid() { return "l_" + Math.random().toString(36).substr(2,9); }
