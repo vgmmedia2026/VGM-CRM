@@ -9,8 +9,8 @@ const C = {
 // Change these usernames/passwords before hosting publicly.
 // For GitHub Pages this is still frontend-only, so do not use highly sensitive passwords here.
 const USERS = [
-  { id: "Esha",    name: "VGM Admin2",       password: "Esha123", role: "admin" },
-  { id: "Ragul",    name: "VGM Admin",       password: "Ragul@2002", role: "admin" },
+  { id: "Esha",    name: "VGM Admin2", password: "Esha123", role: "admin" },
+  { id: "Ragul",    name: "VGM Admin", password: "Ragul@2002", role: "admin" },
   { id: "handler1", name: "Sales Handler 1", password: "handler1",    role: "handler" },
   { id: "handler2", name: "Sales Handler 2", password: "handler2",    role: "handler" },
   { id: "handler3", name: "Sales Handler 3", password: "handler3",    role: "handler" },
