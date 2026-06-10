@@ -44,7 +44,7 @@ const STATUS_COLORS = {
   contacted:  { bg:"rgba(124,92,252,.15)", color:C.accent2 },
   followup:   { bg:"rgba(245,158,66,.15)", color:C.orange },
   closed_won: { bg:"rgba(34,200,122,.15)", color:C.green },
-  Drop:{ bg:"rgba(242,95,95,.15)",  color:C.red },
+  Drop:       { bg:"rgba(242,95,95,.15)",  color:C.red },
 };
 
 function uid() { return "l_" + Math.random().toString(36).substr(2,9); }
