@@ -9,13 +9,32 @@ const C = {
 // Change these usernames/passwords before hosting publicly.
 // For GitHub Pages this is still frontend-only, so do not use highly sensitive passwords here.
 const USERS = [
-  { id: "Esha",    name: "VGM Admin2", password: "Esha123", role: "admin" },
-  { id: "Ragul",    name: "VGM Admin", password: "Ragul@2002", role: "admin" },
-  { id: "handler1", name: "Sales Handler 1", password: "handler1",    role: "handler" },
-  { id: "handler2", name: "Sales Handler 2", password: "handler2",    role: "handler" },
-  { id: "handler3", name: "Sales Handler 3", password: "handler3",    role: "handler" },
-  { id: "handler4", name: "Sales Handler 4", password: "handler4",    role: "handler" },
+{
+id: "Ragul",
+name: "VGM Admin",
+password: "Ragul@2002",
+role: "admin"
+},
+{
+id: "Esha",
+name: "VGM Admin 2",
+password: "Esha123",
+role: "admin"
+},
+{
+id: "Roja",
+name: "Sales Handler 1",
+password: "Roja123",
+role: "handler"
+},
+{
+id: "Dhanush",
+name: "Sales Handler 2",
+password: "Dhanush123",
+role: "handler"
+}
 ];
+
 
 const SOURCES   = ["Meta Ads","Google Ads","Website","Referral","Walk-in","WhatsApp","Direct Call","Other"];
 const STATUSES  = ["new","contacted","followup","closed_won","closed_lost"];
