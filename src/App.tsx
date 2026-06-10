@@ -23,14 +23,14 @@ role: "admin"
 },
 {
 id: "Roja",
-name: "Sales Handler 1",
+name: "Roja",
 password: "Roja123",
 role: "handler"
 },
 {
-id: "Dhanush",
-name: "Sales Handler 2",
-password: "Dhanush123",
+id: "Swathi",
+name: "Swathi",
+password: "Swathi123",
 role: "handler"
 }
 ];
